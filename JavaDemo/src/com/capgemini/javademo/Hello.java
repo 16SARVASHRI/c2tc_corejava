@@ -1,8 +1,6 @@
 package com.capgemini.javademo;
 class Car {
-		private String doors;
-		private String engine;
-		private String driver;
+		
 		private int speed;
 		
 		public int getSpeed() {
