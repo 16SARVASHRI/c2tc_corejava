@@ -10,7 +10,7 @@ public class ExceptionHandling{
 				throw new ArithmeticException("Student is not eligibile");
 				}
 		} catch (ArithmeticException e) {
-			// TODO Auto-generated catch block
+			
 			e.printStackTrace();
 		}
 	}

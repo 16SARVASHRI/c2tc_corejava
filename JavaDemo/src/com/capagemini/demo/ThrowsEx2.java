@@ -9,7 +9,6 @@ public class ThrowsEx2 {
 		try {
 			throw new ArithmeticException("Condition is not accepted ");
 		} catch (ArithmeticException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}

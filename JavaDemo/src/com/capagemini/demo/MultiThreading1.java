@@ -22,9 +22,9 @@ public class MultiThreading1 {
 
 	public static void main(String[] args) {
 		Eclipse2 e = new Eclipse2();
-		Thread t=new Thread(e);
+		Thread t=new Thread(e);//to access start method 
 		t.start();
-		t.setPriority(Thread.MIN_PRIORITY);
+		t.setPriority(Thread.MIN_PRIORITY);//set priority to thread
 		
 		Chrome2 c = new Chrome2();
 		Thread t1=new Thread(c);

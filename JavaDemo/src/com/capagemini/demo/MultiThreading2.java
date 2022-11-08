@@ -7,9 +7,9 @@ class Eclipse3 extends Thread{
 			System.out.println("Eclipse Thread name is " + Thread.currentThread().getName());
 			System.out.println("Eclipse Thread Id is " + Thread.currentThread().getId());
 			try {
+				//used for blocked state
 				sleep(6000);
 			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 		}
