@@ -19,6 +19,7 @@ public class IteratorEx {
 		player.add("Rohit");
 		player.peek();
 		player.set(3, "Hardik");
+		player.addLast("Bumrah");
 	
 		
 		System.out.println(player.clone());
