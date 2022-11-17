@@ -15,10 +15,10 @@ public class ListIteratorEx {
 	}
 	
 	void display1(LinkedList<String> list1) {
-		ListIterator<String> it1=list1.listIterator();
+		ListIterator<String> it1=list1.listIterator(list1.size());
 		
-		while(it1.hasNext()) {
-			System.out.println("Flower name is : "+ it1.next());
+		while(it1.hasPrevious()) {
+			System.out.println("Flower name is : "+ it1.previous());
 		}
 	}
 	public static void main(String[] args) {
@@ -42,9 +42,8 @@ public class ListIteratorEx {
 			l1.sort(null);
 			li.display(l1);
 			System.out.println("---------------------");
-			Collections.reverse(l1);
+			//Collections.reverse(l1);
 			li.display1(l1);
-
 	}
 
 }
