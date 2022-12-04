@@ -40,11 +40,14 @@ public class Lambda3 {
 //	});
 	
 // by lambda Expression
+//	Collections.sort(list,(Generic5 l1,Generic5 l2)->{return l1.getData().compareTo(l2.getData());});
+
+//	for(Generic5 g:list) {
+//		System.out.println(g.getData());
+	
 	Collections.sort(list,(Generic5 l1,Generic5 l2)->{return l1.getData().compareTo(l2.getData());});
-
-	for(Generic5 g:list) {
-		System.out.println(g.getData());
+	list.forEach(temp->{System.out.println(temp.getData());});
 	}
-	}
-
 }
+
+
